@@ -1,0 +1,57 @@
+body { margin: 0;padding: 0;}
+.bar-right { height: 100%;position: fixed;top:0;right:0;width: 100px; }
+.diagram {height:inherit;z-index:11000;}
+.diagram-left { position:relative;width: 70%;height:100%;float:left;color:#fff;text-align:right;padding-right:10%; }
+.diagram-right { width: 20%;height:100%;float:left; }
+img[src^="http://view.mnm.as"] { display:none;width:0px; height:0px;}
+
+
+#ajaxloader {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 8px solid #fff;
+	border-right-color: #111;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 200px #333;
+	-webkit-animation: spin 2s linear infinite;
+	-moz-animation: spin 2s linear infinite;
+	-o-animation: spin 2s linear infinite;
+	-ms-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+	z-index: 2000000;
+	top: calc(50% - 50px);
+	left:calc(50% - 50px);
+	background: #00b6ef;
+}
+
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg);   opacity: 1; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	to   { -webkit-transform: rotate(360deg); opacity: 1; }
+}
+
+@-moz-keyframes spin {
+	from { -webkit-transform: rotate(0deg);   opacity: 1; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	to   { -webkit-transform: rotate(360deg); opacity: 1; }
+}
+
+@-o-keyframes spin {
+	from { -webkit-transform: rotate(0deg);   opacity: 1; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	to   { -webkit-transform: rotate(360deg); opacity: 1; }
+}
+
+@-ms-keyframes spin {
+	from { -webkit-transform: rotate(0deg);   opacity: 1; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	to   { -webkit-transform: rotate(360deg); opacity: 1; }
+}
+
+@keyframes spin {
+	from { -webkit-transform: rotate(0deg);   opacity: 1; }
+	50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+	to   { -webkit-transform: rotate(360deg); opacity: 1; }
+}
+

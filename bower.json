@@ -1,0 +1,23 @@
+{
+  "name": "heatmap",
+  "version": "0.0.0",
+  "authors": [
+    "Stian Pedersen <stian.b.pedersen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "jquery": "~2.1.4",
+    "angular-sanitize": "~1.4.0",
+    "lodash": "~3.9.3",
+    "angular-mocks": "~1.4.1",
+    "angular-resource": "~1.4.1"
+  }
+}
